@@ -14,9 +14,9 @@ const HeroPicture: React.FC = () => {
         alt="Logo Background"
       />
       <Image
-        className="w-full select-none self-end"
-        width={600}
-        height={600}
+        className="w-fit select-none self-end"
+        width={400}
+        height={400}
         priority
         src={"/assets/profile-pic.png"}
         alt="Profile Image"
